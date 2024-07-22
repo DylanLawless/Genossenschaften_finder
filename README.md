@@ -15,8 +15,8 @@ This system is designed to monitor specific webpages and detect any changes in t
 ### Files
 
 - **Launch Agent Configuration**: `~/Library/LaunchAgents/com.user.launchchecker.plist`
-- **AppleScript**: `/Users/dylanlawless/Library/CloudStorage/GoogleDrive-dylanlawless1@gmail.com/My Drive/travel_engel_teufel/Genossenschaften/src/launch_checker_script.scpt`
-- **Bash Script**: `/Users/dylanlawless/Library/CloudStorage/GoogleDrive-dylanlawless1@gmail.com/My Drive/travel_engel_teufel/Genossenschaften/src/auto_check_webpages.sh`
+- **AppleScript**: `/Users/username/mydrivelocation/Genossenschaften/src/launch_checker_script.scpt`
+- **Bash Script**: `/Users/username/mydrivelocation/Genossenschaften/src/auto_check_webpages.sh`
 
 ### launchd Configuration
 
@@ -32,7 +32,7 @@ The `launchd` job is configured to run the AppleScript every minute. The configu
     <key>ProgramArguments</key>
     <array>
         <string>osascript</string>
-        <string>/Users/dylanlawless/Library/CloudStorage/GoogleDrive-dylanlawless1@gmail.com/My Drive/travel_engel_teufel/Genossenschaften/src/launch_checker_script.scpt</string>
+        <string>/Users/username/mydrivelocation/Genossenschaften/src/launch_checker_script.scpt</string>
     </array>
     <key>RunAtLoad</key>
     <true/>

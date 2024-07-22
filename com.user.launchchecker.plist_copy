@@ -7,7 +7,7 @@
     <key>ProgramArguments</key>
     <array>
         <string>osascript</string>
-        <string>/Users/dylanlawless/Library/CloudStorage/GoogleDrive-dylanlawless1@gmail.com/My Drive/travel_engel_teufel/Genossenschaften/src/launch_checker_script.scpt</string>
+        <string>/Users/username/Library/CloudStorage/mydrivelocation/src/launch_checker_script.scpt</string>
     </array>
     <key>RunAtLoad</key>
     <true/>

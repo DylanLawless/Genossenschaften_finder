@@ -1,5 +1,7 @@
 # Webpage Monitoring System
 
+![example.png]
+
 This system is designed to monitor specific webpages and detect any changes in their content. It runs a script every hour that checks selected webpages and logs any changes detected.
 
 ## Components

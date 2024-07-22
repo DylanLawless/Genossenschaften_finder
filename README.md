@@ -8,7 +8,7 @@ This system is designed to monitor specific webpages and detect any changes in t
 
 1. **launch_checker_script.scpt**: An AppleScript that opens Terminal and executes the Bash script.
 2. **auto_check_webpages.sh**: A Bash script that fetches webpages, computes their checksums, and compares these to previously stored checksums to detect changes.
-3. **com.user.launchchecker.plist**: A launchd configuration file that schedules the AppleScript to run every minute.
+3. **com.user.launchchecker.plist**: A launchd configuration file that schedules the AppleScript to run every hour (or other time period).
 
 ## Setup
 
